@@ -1,0 +1,33 @@
+:root {
+  --heading-family: inherit;
+  --heading-weight: var(--g-fontWeight-bold);
+  --heading-marginTop: 1em;
+  --heading-marginBottom: .5em;
+  --heading-color: var(--g-mono-90);
+  --heading-lineHeight: 1.2;
+  --heading-fontSize-h1: var(--g-fontSize-hg);
+  --heading-fontSize-h2: var(--g-fontSize-xl);
+  --heading-fontSize-h3: var(--g-fontSize-lg);
+  --heading-fontSize-h4: var(--g-fontSize-md);
+  --heading-fontSize-h5: var(--g-fontSize-sm);
+  --heading-fontSize-h6: var(--g-fontSize-xs);
+}
+
+/*
+ * sircus-elements-heading
+ ================================================== */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--heading-color);
+  font-family: var(--heading-family);
+  font-weight: var(--heading-weight);
+  line-height: var(--heading-lineHeight);
+  margin-top:var(--heading-marginTop);
+  margin-bottom:var(--heading-marginBottom);
+}
+
+h1, .H1 { font-size: var(--heading-fontSize-h1); }
+h2, .H2 { font-size: var(--heading-fontSize-h2); }
+h3, .H3 { font-size: var(--heading-fontSize-h3); }
+h4, .H4 { font-size: var(--heading-fontSize-h4); }
+h5, .H5 { font-size: var(--heading-fontSize-h5); }
+h6, .H6 { font-size: var(--heading-fontSize-h6); }

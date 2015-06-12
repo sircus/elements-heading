@@ -1,0 +1,37 @@
+
+// Converted Variables
+
+$heading-family: inherit !default;
+$heading-weight: $g-fontWeight-bold !default;
+$heading-marginTop: 1em !default;
+$heading-marginBottom: .5em !default;
+$heading-color: $g-mono-90 !default;
+$heading-lineHeight: 1.2 !default;
+$heading-fontSize-h1: $g-fontSize-hg !default;
+$heading-fontSize-h2: $g-fontSize-xl !default;
+$heading-fontSize-h3: $g-fontSize-lg !default;
+$heading-fontSize-h4: $g-fontSize-md !default;
+$heading-fontSize-h5: $g-fontSize-sm !default;
+$heading-fontSize-h6: $g-fontSize-xs !default;
+
+// Custom Media Query Variables
+
+
+/*
+ * sircus-elements-heading
+ ================================================== */
+h1, h2, h3, h4, h5, h6 {
+  color: $heading-color;
+  font-family: $heading-family;
+  font-weight: $heading-weight;
+  line-height: $heading-lineHeight;
+  margin-top:$heading-marginTop;
+  margin-bottom:$heading-marginBottom;
+}
+
+h1, .H1 { font-size: $heading-fontSize-h1; }
+h2, .H2 { font-size: $heading-fontSize-h2; }
+h3, .H3 { font-size: $heading-fontSize-h3; }
+h4, .H4 { font-size: $heading-fontSize-h4; }
+h5, .H5 { font-size: $heading-fontSize-h5; }
+h6, .H6 { font-size: $heading-fontSize-h6; }
