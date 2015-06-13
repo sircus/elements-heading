@@ -21,16 +21,16 @@ $ npm install sircus-elements-heading && npm install sircus-global-proprety
 
 input.css
 ```css
-@import "sircus-global-proprety"
-@import "sircus-elements-heading"
+@import "sircus-elements-heading";
+@import "sircus-global-proprety";
 ```
 
 > use sass:
 
 input.scss
 ```css
-@import "node_modules/sircus-global-proprety/converted"
-@import "node_modules/sircus-elements-heading/converted"
+@import "node_modules/sircus-global-proprety/converted";
+@import "node_modules/sircus-elements-heading/converted";
 ```
 
 > html
