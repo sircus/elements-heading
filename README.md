@@ -2,35 +2,33 @@
 
 [![npm version](https://img.shields.io/npm/v/sircus-elements-heading.svg?style=flat)](https://www.npmjs.com/package/sircus-elements-heading)
 
-> A base heading elements Module for Sircus.
-
 ## Dependencies
-- [sircus-global-proprety](https://github.com/sircus/global-property)
+- [sircus-global-property](https://github.com/sircus/global-property)
 
 ## Installation
 
-> use npm:
+> npm:
 
 ```bash
-$ npm install sircus-elements-heading sircus-global-proprety
+$ npm install sircus-elements-heading sircus-global-property
 ```
 
 ## Usage
 
-> use cssnext:
+> cssnext:
 
 input.css
 ```css
 @import "sircus-elements-heading";
-@import "sircus-global-proprety";
+@import "sircus-global-property";
 ```
 
-> use sass:
+> sass:
 
 input.scss
-```css
-@import "node_modules/sircus-global-proprety/converted";
-@import "node_modules/sircus-elements-heading/converted";
+```scss
+@import "./node_modules/sircus-global-property/converted";
+@import "./node_modules/sircus-elements-heading/converted";
 ```
 
 > html
