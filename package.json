@@ -23,7 +23,7 @@
     "build": "css2scss ./index.css ./_converted.scss"
   },
   "dependencies": {
-    "sircus-global-property": "^0.1.2"
+    "sircus-global-property": "^0.2.0"
   },
   "devDependencies": {
     "sircus-process-css2scss": "^0.2.0"
