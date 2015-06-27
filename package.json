@@ -1,7 +1,7 @@
 {
   "name": "sircus-elements-heading",
-  "description": "Css base heading elements Module for Sircus.",
-  "version": "0.0.1",
+  "description": "CSS module for base styling of HTML heading elements.",
+  "version": "0.1.0",
   "homepage": "http://sircus.github.io",
   "keywords": [
     "scalabe",
