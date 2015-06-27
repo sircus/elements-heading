@@ -3,7 +3,7 @@
   --heading-weight: var(--g-fontWeight-bold);
   --heading-marginTop: 1em;
   --heading-marginBottom: .5em;
-  --heading-color: var(--g-mono-90);
+  --heading-color: var(--g-gray-60);
   --heading-lineHeight: 1.2;
   --heading-fontSize-h1: var(--g-fontSize-hg);
   --heading-fontSize-h2: var(--g-fontSize-xl);
